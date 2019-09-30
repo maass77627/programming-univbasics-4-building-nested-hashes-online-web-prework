@@ -1,5 +1,5 @@
 def base_hash
-	monopoly = {:railroads=>,:names=>, }
+	monopoly = {:railroads=>{},:names=>, }
 	
 end
 
@@ -17,12 +17,9 @@ def monopoly_with_second_tier
       :pennsylvania_railroad=>
       { },
       :b_and_o_railroad=>
-      {
-      },
+      {},
       :shortline=>
-      {
-        "mortgage_value"=>"$800"
-      }
+      {}
     }
   }
 }
